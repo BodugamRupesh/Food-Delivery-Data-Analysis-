@@ -129,6 +129,8 @@ Dashboard Design
 
 📊 Final Dataset (final_food_delivery_dataset.csv)
 
+📊 Power BI Dashboard (.pbix)
+
 📄 README
 
 ## 🚀 Project Outcome
