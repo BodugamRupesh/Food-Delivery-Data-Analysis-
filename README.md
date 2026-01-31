@@ -1,11 +1,9 @@
-# Food-Delivery-Data-Analysis-
-
-# 🍽 Food Delivery Data Analysis Project  
+## 🍽 Food Delivery Data Analysis Project  
 
 This project was completed as part of a Hackathon and Internship Selection Process.
 The goal was to integrate multiple data sources, analyze them, and generate business insights using Python and Power BI.
 
-# 📂 Datasets Used
+## 📂 Datasets Used
 
 This project combines data from three different real-world style systems:
 
@@ -40,7 +38,7 @@ Cuisine Type
 
 Restaurant Rating
 
-⚙️ Tools & Technologies
+## ⚙️ Tools & Technologies
 
 Python (Pandas, SQLite) – Data processing and merging
 
@@ -50,7 +48,7 @@ Power BI – Dashboard and visualization
 
 GitHub – Project version control and submission
 
-# 🔄 Project Workflow
+## 🔄 Project Workflow
 
 🟢 Step 1 — Data Loading
 Different file formats (CSV, JSON, SQL) were loaded into Python.
@@ -102,7 +100,7 @@ Seasonal revenue trends
 🟢 Step 6 — Dashboard Creation
 An interactive dashboard was built in Power BI to visualize insights.
 
-# 📊 Key Insights
+## 📊 Key Insights
 
 Gold members contribute a significant portion of revenue
 
@@ -112,7 +110,7 @@ Some cuisines have higher average order values
 
 Revenue trends vary by quarter, showing seasonality
 
-# 🎯 Skills Demonstrated
+## 🎯 Skills Demonstrated
 
 Data Cleaning
 
@@ -133,7 +131,7 @@ Dashboard Design
 
 📄 README
 
-# 🚀 Project Outcome
+## 🚀 Project Outcome
 
 This project demonstrates an end-to-end data analysis workflow — from raw data processing to business insights and dashboard reporting — similar to real-world industry scenarios.
 
