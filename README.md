@@ -1,88 +1,116 @@
 # Food-Delivery-Data-Analysis-
 
 🍽 Food Delivery Data Analysis Project
-
-This project was completed as part of a hackathon and internship selection process. The goal of this project was to combine data from multiple sources, analyze it, and create business insights using Python and Power BI.
+This project was completed as part of a Hackathon and Internship Selection Process.
+The goal was to integrate multiple data sources, analyze them, and generate business insights using Python and Power BI.
 
 📂 Datasets Used
-The project uses three different data sources:
+This project combines data from three different real-world style systems:
 
-orders.csv – Transactional data containing order details
+1️⃣ orders.csv (Transactional Data)
+Contains order-level information such as:
 
-users.json – User information like city and membership
+Order ID
 
-restaurants.sql – Restaurant master data including cuisine and ratings
+User ID
 
-These datasets simulate real-world systems where data is stored in different formats.
+Restaurant ID
+
+Order Date
+
+Total Amount
+
+2️⃣ users.json (User Master Data)
+Contains user details including:
+
+User ID
+
+City
+
+Membership Type (Gold / Regular)
+
+3️⃣ restaurants.sql (Restaurant Master Data)
+Contains restaurant-related information:
+
+Restaurant ID
+
+Cuisine Type
+
+Restaurant Rating
 
 ⚙️ Tools & Technologies
-Python (Pandas, SQLite)
+Python (Pandas, SQLite) – Data processing and merging
 
-Jupyter Notebook
+Jupyter Notebook – Data analysis workflow
 
-Power BI
+Power BI – Dashboard and visualization
 
-GitHub
+GitHub – Project version control and submission
 
 🔄 Project Workflow
-Step 1: Data Loading
-CSV, JSON, and SQL data were loaded into Python.
+🟢 Step 1 — Data Loading
+Different file formats (CSV, JSON, SQL) were loaded into Python.
 
-Step 2: Data Integration
-Datasets were merged using:
+🟢 Step 2 — Data Integration
+Datasets were merged using keys:
 
-user_id to combine orders and users
+user_id → Join Orders with Users
 
-restaurant_id to combine orders and restaurants
+restaurant_id → Join Orders with Restaurants
 
-A LEFT JOIN was used to retain all orders.
+A LEFT JOIN was used to keep all order records.
 
-Step 3: Feature Engineering
-New columns like month and quarter were created from the order date.
+🟢 Step 3 — Feature Engineering
+New time-based features were created:
 
-Step 4: Final Dataset Creation
-A single dataset was created containing:
+Month
 
-Order details
+Quarter
 
-User information
+Year
 
-Restaurant information
+🟢 Step 4 — Final Dataset Creation
+All datasets were combined into one master dataset containing:
 
-This final dataset was exported as:
+Order Details
+
+User Information
+
+Restaurant Information
+
+Exported as:
+
 final_food_delivery_dataset.csv
 
-Step 5: Business Analysis
-The dataset was analyzed to understand:
+🟢 Step 5 — Business Analysis
+Data was analyzed to answer business questions such as:
 
-Revenue trends
+City-wise revenue performance
 
-City performance
+Cuisine trends
 
-Cuisine performance
+Membership impact
 
-Gold vs Regular membership behavior
+Rating influence
 
-Rating impact
+Seasonal revenue trends
 
-Seasonal patterns
-
-Step 6: Dashboard Creation
+🟢 Step 6 — Dashboard Creation
 An interactive dashboard was built in Power BI to visualize insights.
 
 📊 Key Insights
-Gold members contribute a large share of revenue
+Gold members contribute a significant portion of revenue
 
-Certain cuisines have higher average order values
+Higher-rated restaurants generate more sales
 
-Higher-rated restaurants generate more revenue
+Some cuisines have higher average order values
 
-Revenue varies across quarters, showing seasonality
+Revenue trends vary by quarter, showing seasonality
 
 🎯 Skills Demonstrated
 Data Cleaning
 
-Data Merging
+Data Integration
 
 SQL Execution
 
@@ -92,13 +120,13 @@ Business Intelligence
 
 Dashboard Design
 
-📁 Files in Repository
-Jupyter Notebook (.ipynb)
+📁 Files Included in Repository
+📓 Jupyter Notebook (.ipynb)
 
-Final dataset (final_food_delivery_dataset.csv)
+📊 Final Dataset (final_food_delivery_dataset.csv)
 
-README
+📄 README
 
-🚀 Outcome
-This project shows the complete data analysis workflow from raw data integration to business insights and dashboard visualization, similar to real industry use cases.
+🚀 Project Outcome
+This project demonstrates an end-to-end data analysis workflow — from raw data processing to business insights and dashboard reporting — similar to real-world industry scenarios.
 
